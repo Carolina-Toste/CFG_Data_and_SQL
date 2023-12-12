@@ -174,6 +174,7 @@ SET TotalAmount = calculate_order_total(37)
 WHERE OrderID = 37;
 
 -- During the shops anniversary in June I give people a 10% discount on orders > £30. 
+
 /* Created a stored function that can be run during the sale to find the final price
 the customer needs to pay after the discount has been applied. This function takes an order_id as input,
 retrieves the total amount for the order, and applies a 10% discount if the total amount is greater than £30. 
@@ -208,11 +209,12 @@ DELIMITER ;
 SELECT calculate_discounted_price(37);
 
 -- TASK 3 - SUBQUERY
+
 /* Prepare an example query with a subquery to demonstrate how to
 extract data from your DB for analysis */
 
 /* I received a phone call from Rakel Barrar asking me for advice on how to care for her plants,
-I told her I would check and e-mail her instructions. To Find what plants she bought and her e-mail address
+I told her I would check and e-mail her instructions. To find what plants she bought and her e-mail address
 I'm building a query with a subquery. The query selects customer and order information and the subquery retrieves and 
 concatenates the plant names for the order */
 
@@ -389,6 +391,7 @@ HAVING TotalSpent > 100
 ORDER BY TotalSpent DESC;
 
 -- Task 8 - Create trigger and demonstrate how it runs
+
 /* Created a trigger to create a notification when the plant_stock quantity 
 falls below a certain threshold. */
 
