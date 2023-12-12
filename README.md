@@ -14,6 +14,7 @@ events
 triggers
 backups
 
+#Final Project
 This repository contains my final project which was a requirement of the course. 
 
-It is a database that contains details of a made-up Etsy Plant store. The plants.sql script contains the code used to create and populate the tables and the task.sql script contains the code used to complete the various requirements of the project such as creating views (including complex views) , creating stored functions, creating stored procedures, subqueries, creating events, triggers, etc.. The repository also contains a backup of the database 
+It is a database that contains details of a made-up Etsy plant store. The plants.sql script contains the code used to create and populate the tables and the task.sql script contains the code used to complete the various requirements of the project such as creating views (including complex views) , creating stored functions, creating stored procedures, subqueries, creating events, triggers, etc.. The repository also contains a backup of the database 
