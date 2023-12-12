@@ -133,6 +133,7 @@ SELECT * FROM revenue_extra_type_view;
 query in your DB */
 
 --  Create stored function that calculates the total amount for an order based on the price of plants and items
+
 /* This function takes 'order_id' as input and calculates the total amount for plants and items, 
 and then returns the sum of the order. Note - When adding plant_total and item_total I was having an error 
 in all the cases where there was a NULL value in one of the totals - to overcome that I used COALESCE*/
