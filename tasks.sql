@@ -2,8 +2,7 @@ USE plants;
 
 -- TASK 1 - VIEW WITH JOINS
 /* Using any type of the joins, create a view that combines multiple tables in a 
-logical way, include a view that uses at least 3-4 base tables; 
-prepare and demonstrate a query that uses the view to produce a logically arranged result set for analysis*/
+logical way*/
 
 -- Create view that combines information from customers and orders
 
@@ -135,7 +134,8 @@ query in your DB */
 
 --  Create stored function that calculates the total amount for an order based on the price of plants and items
 /* This function takes 'order_id' as input and calculates the total amount for plants and items, 
-and then returns the sum of the order */
+and then returns the sum of the order. Note - When adding plant_total and item_total I was having an error 
+in all the cases where there was a NULL value in one of the totals - to overcome that I used COALESCE*/
 
 DELIMITER //
 CREATE FUNCTION calculate_order_total(order_id INT)
