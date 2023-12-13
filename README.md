@@ -1,18 +1,17 @@
 # Code First Girls: Introduction to Data and SQL Course
 I undertook this course run by Code First Girls during Winter 2023. This course is an 8 week introductory course and was my first experience of databases and SQL. We used MySQL Workbench throughout the course and learned:
 
-database creation, structure and management
-basic queries
-queries with conditions, group by, having
-subqueries
-joins and the union operator
-transactions
-views
-stored functions
-stored procedures
-events
-triggers
-backups
+- database creation, structure and management
+- basic queries
+- queries with conditions, group by, having
+- subqueries
+- joins and the union operator
+- views
+- stored functions
+- stored procedures
+- events
+- triggers
+- backups
 
 ## Final Project
 This repository contains my final project which was a requirement of the course. 
